@@ -1,0 +1,35 @@
+body {
+  background-color: rgba(206, 178, 22, 0.778);
+}
+video-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  height: 100vh;           /* Or a specific height for the container */
+}
+
+video {
+  display: block; /* Ensures it's a block-level element */
+  margin: auto;   /* Centers horizontally */
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.poster {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 100px;
+  color: #110dcf;
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+}
+
+.motivation-img {
+  border: 15px solid rgb(142, 107, 37);
+  width: 100%;
+}
+
+
